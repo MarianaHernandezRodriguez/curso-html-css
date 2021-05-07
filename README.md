@@ -1,5 +1,6 @@
 Curso de HTML y CSS:
-Web Developer Fundamentals.
+
+WEB DEVELOPER FUNDAMENTALS.
 
 ° a)  ¿Qué es HTML? 
 R= Es el lenguaje que se uas para poder darle esctructura a la informacion qeu se comparte con los usuarios
@@ -51,4 +52,19 @@ Tambien comocidas como Web App dejan de ser páginas y se convierten más en una
 
  *Nota:Login en el ámbito de seguridad informática, log in o log on es el proceso que controla el acceso individual a un sistema informático mediante la identificación del usuario utilizando credenciales provistas por el usuario.​*
 
- 
+HTML
+
+HTML (Hypertext Markup Language) significa que es un lenguaje de marcado de texto, y es la opcion de poder saltar entre ciertas paginas gracias a los hipervinculos que hay en HTML que es una etiqueta.
+
+° Anatomía de una página web.
+No todas las paginas tienen que tener la misma anatomía pero es importante ya que hay partes espercificas de las cuales tienes que saber los nombres.
+
+- 1*HEADER*.
+Es donde va a estar el logo o nombre de la empresa y donde va a haber una barra de navegacion en la cual podras moverte por toda la aplicacion ya sea estática o dinámica.
+Despues va a haber un *MAIN CONTENT* contenedor principal que puede tener un *SIDEBAR* que es un contenedor lateral con cierta infromacion, o simplemente puedes solo encontrar la informacion principal.
+
+- *MAIN CONTENT.*
+Es donde se encuentra la informacion principal que se puede empezar a dividir en secciones po ejemplo en una red social, si tienes un post ese post va a ser una seccion y podras entrar a ese post y ver los comentarios pero si te vas  a otro post va a ser otra seccion y todo esto se en cuantra dentro del main que es la estructura principal la informacion principal de la pagina.
+
+- *FOOTER.*
+Se localiza normalmente al final de la informacion de la página pero puede haber paginas que tengan un footer muy visual y con mucha informacion, puede haber algunas páginas que su footer sea muy pequeño o que practicamente no lo tengan y tengas que bajar mucha informacion para llergar a el, por ejemplo Facebook que tiene un scroll infinito osea que por más que bajes no llegaras al final por eso el footer de Facebook se pone a un lateral.  
