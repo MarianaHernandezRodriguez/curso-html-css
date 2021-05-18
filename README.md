@@ -67,4 +67,28 @@ Despues va a haber un *MAIN CONTENT* contenedor principal que puede tener un *SI
 Es donde se encuentra la informacion principal que se puede empezar a dividir en secciones po ejemplo en una red social, si tienes un post ese post va a ser una seccion y podras entrar a ese post y ver los comentarios pero si te vas  a otro post va a ser otra seccion y todo esto se en cuantra dentro del main que es la estructura principal la informacion principal de la pagina.
 
 - *FOOTER.*
-Se localiza normalmente al final de la informacion de la página pero puede haber paginas que tengan un footer muy visual y con mucha informacion, puede haber algunas páginas que su footer sea muy pequeño o que practicamente no lo tengan y tengas que bajar mucha informacion para llergar a el, por ejemplo Facebook que tiene un scroll infinito osea que por más que bajes no llegaras al final por eso el footer de Facebook se pone a un lateral.  
+Se localiza normalmente al final de la informacion de la página pero puede haber paginas que tengan un footer muy visual y con mucha informacion, puede haber algunas páginas que su footer sea muy pequeño o que practicamente no lo tengan y tengas que bajar mucha informacion para llergar a el, por ejemplo Facebook que tiene un scroll infinito osea que por más que bajes no llegaras al final por eso el footer de Facebook se pone a un lateral. 
+
+° Index y su estructura basica:head.
+
+En una carpeta en el editor de texto hay que crear un archivo con el nombre "index.html" y por que no otros nombres bueno si pueden llevar otro nombre pero el primer archivo que hagas con ".html" tiene que llamarse index.html ya que va a ser la pagina principal que el sevidor va a buscar al momento de habrir un pryecto.
+- Las primeras lineas de codigo de el index.html.
+primero vasmos a generar una linea de codigo que le diga al navegador que el codigo que esta leyendo es HTML5 y esa lijnea va a ser *<!DOCTYPE html>*
+despues hay que hacer un contenedor principal al qae se le conoce como contenedro padre el cuel es: *<html>* este contenedor va a llevas todas las etiquetas y contenidop que tengamos en nuestro proyecto y lleva uhn atributo especial que se llama *lang* este lke dice al navegado en que idiona esta el proyecto y esto tambien permite que el navegador sepa que no esta en el idioma en que el cliente normalmente navega y le permite tradicir a su idioma se usa asi: *<html lang="es">* 
+luego vamos a hacer dos contenedores mas, uno va a ser la etiqueta de *<head></head>* y el otro va a ser la etiqueta de *<body>*
+ 
+- algo importante es que depues de haber puesto la linea de codigo para el contenedor padre que es *<html lang="es">*
+las demas etiquetas tienen que empezar en un nuevo renglon péro dejando un espacio al inicio eso se llama tabulador y aui que esto no le afecte al navegador es importante para entender que esta pasando en nuestro proyecto para saber que la etiqueta *html* que se habre y se cierra al final es padre de las demas etiquetas que estan en medio y si trabajamos en equipo es para que los demas puedan entender que codigo esta que quiere decir y que depende de que y ayuda tambien a saber que las cosas se abran y cierren de una forma adecueda.
+
+*NOTA:la etiquetas se cierran asi: *</html>* con una linea de lado antes de el texto pero eso no pasas con todas las etiquetas ya que algunas se cierran como la de *<html>* pero otras se auto cierran como la de *<!DOCTYPE HTML>* 
+
+- ¿Qué va dentro de la etiqueta *head* y *body*?
+La etiqueta de *head* y *body* son contenedeores hermanos en *head* va a ir todo lo que necesita el naveghador para que pueda cargar en la forma en la qeu lo hicimos como fuentes etc. pero este contenido no lo va a ver el usuario en el proyecto final. 
+Pero en *body* va a ir el texto las imagenes etc. que es lo que el usuario si podra ver en el proyecto final.
+
+- *HEAD*
+Aqui van a ir las lineas de codigo que son iportante para el navegador, una de las linas de codigo que se conocen como etiquetas se llaman *etiquetas meta* y estas le daran informacion al navegador para que sepa como tratar nuestro proyecto esta etiquete es una de las que se aunto cierran 
+
+- La etiqueta *<meta>* va a llevar un atriburo que se llama *charset* va a llevar un valoR que es *UTF-8* este nos va a ayudar a que el navegador pueda entender caracteres especiales como: *ú, ü,ñ,etc* es importante para que el navegador al tradicir la pagina no se confunda con estos caracteres tambien extiste *UTF-32* y *UTF-16* que son para otro tipo de caracteres pero casi no se usan. al final nuestra lina de codigo se tiene que ver asi: *<meta charset="UTF-8">
+
+- otro *meta* que vasmos a usar va a ser *<meta name="description"> el *description va a permitirque los usuarios al buscar informacion en la decricion de la pagina les aparesca la informacion que necesitan y tambien se puede agregar una decricion a la pagina para esto la linea de cogigo se tendra que ver asi *<met name="decription" content="aqui va la decripcion" />
