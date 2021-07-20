@@ -80,19 +80,22 @@ luego vamos a hacer dos contenedores más, uno va a ser la etiqueta de *<head>* 
  
 - Importante.
  Despues de haber puesto la linea de codigo para el contenedor padre que es *<html lang="es">*
-las demas etiquetas tienen que empezar en un nuevo renglon pero dejando un espacio al inicio eso se llama *tabulador* y esto no le afecta al navegador pero es importante para entender que esta pasando en nuestro proyecto para saber que la etiqueta *html* que se habre y se cierra al final es padre de las demas etiquetas que estan en medio y si trabajamos en equipo es para que los demas puedan entender que codigo esta, que quiere decir, y que depende de que, ayuda tambien a saber que las cosas se abran y cierren de una forma adecuada.
+las demas etiquetas tienen que empezar en un nuevo renglon pero dejando un espacio al inicio del renglon eso se llama *tabulador* y esto no le afecta al navegador pero es importante para entender que esta pasando en nuestro proyecto para saber que la etiqueta *html* que se habre y se cierra al final es padre de las demas etiquetas que estan en medio y si trabajamos en equipo es para que los demas puedan entender que codigo esta, que quiere decir, y que depende de que, ayuda tambien a saber que las cosas se abran y cierren de una forma adecuada.
 
 *NOTA:la etiquetas se cierran asi: *</html>* con una linea inclinada antes de el texto pero eso no pasa con todas las etiquetas ya que algunas se cierran como la de *<html>* pero otras se auto cierran como la de *<!DOCTYPE HTML>*.
 
 - ¿Qué va dentro de la etiqueta *head* y *body*?
-La etiqueta *head* y *body* son contenedores hermanos en *head* va a ir todo lo que necesita el navegador para que pueda cargar en la forma en la que lo hicimos, como fuentes etc. pero este contenido no lo va a ver el usuario en el proyecto final. 
+La etiqueta *head* y *body* son contenedores hermanos en *head* va a ir todo lo que necesita el navegador para que pueda cargar en la forma en la que lo hicimos, como fuentes y el CSS etc. pero este contenido no lo va a ver el usuario en el proyecto final. 
 Pero en *body* va a ir el texto las imagenes etc. que es lo que el usuario si podra ver e interactuar en el proyecto final.
 
 - *HEAD*
 Aqui van a ir las lineas de codigo que son importantes para el navegador, una de las linas de codigo que se conocen como etiquetas se llaman *etiquetas meta* y estas le dan informacion al navegador para que sepa como tratar nuestro proyecto esta etiqueta es una de las que se autocierran. 
 
 - La 1° etiqueta *meta*.
-Va a llevar un atributo que se llama *charset* va a llevar un valor que es *UTF-8* este nos va a ayudar a que el navegador pueda entender caracteres especiales como: *ú, ü,ñ,etc* es importante para que el navegador al tradicir la pagina no se confunda con estos caracteres tambien extiste *UTF-32* y *UTF-16* que son para otro tipo de caracteres pero casi no se usan. al final nuestra linea de codigo se tiene que ver asi: *<meta charset="UTF-8">
+Va a llevar un atributo que se llama *charset* va a llevar un valor que es *UTF-8* este nos va a ayudar a que el navegador pueda entender caracteres especiales como: *ú, ü,ñ,etc* es importante para que el navegador al traducir la pagina no se confunda con estos caracteres tambien extiste *UTF-32* y *UTF-16* que son para otro tipo de caracteres pero casi no se usan. al final nuestra linea de codigo se tiene que ver asi: *<meta charset="UTF-8">*
 
 - 2° etiqueta *meta*.
- Esta linea de codigo se tiene que ver asi *<meta name="description"> el *description* va a permitir que los usuarios al buscar informacion en la decripcion de la pagina aparesca la informacion que necesitan y aparte tambien se puede agregar una descripcion a la pagina para esto la linea de codigo se tendra que ver asi *<met name="decription" content="aqui va la decripcion" />
+ Esta linea de codigo se tiene que ver asi *<meta name="description">* el *description* va a permitir que los usuarios al buscar informacion en la decripcion de la pagina aparesca la informacion que necesitan y aparte tambien se puede agregar una descripcion a la pagina para esto la linea de codigo se tendra que ver asi *<met name="decription" content="aqui va la decripcion" />*.
+
+ 3° Etiqueta *meta* este meta nos va a ayudar con los robots de posicionamiento de los navegadores que significa que cuando alguien haga una busqueda por ejemplo en google si tu pagina e sobre plantas estos robots ayudan a posicionar tu pagina junto con otras que se tratan de lo mismo o similar y con este meta que se llama °meta name robots° es comos si le dieramos permiso a esos robots de posicionar la pagina en una categoria segun  la busqueda  y se pone robots por que no solo existe un robot existen muchos otros de otros buscadores y la etiqueta termina viendose asi 
+*<meta name ="robots" content="index,follow">*
