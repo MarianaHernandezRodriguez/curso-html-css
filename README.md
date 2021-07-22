@@ -102,7 +102,21 @@ Va a llevar un atributo que se llama *charset* va a llevar un valor que es *UTF-
 
 - 4° Va a haber un atributo que se llama *title* <title></title> este es importante ya que en un navegador se vera en que pagina estamos o cuales otras tenemos y se coloca asi: <title>youtube</title> eso es lo que se vera en el titulo de esa pestaña y por eso es importante colocarlo.
 
-- 5° Meta este es muy importante para los proyectos que son Responsive y actualmente todos los proyectos que hagas tienen que ser  100% Resposive esta liene tendra que verse asi: <meta name="viewport" content="width=device-width, inictial-scale=1.0"> esta liene es basicamente para que si una persona abre nuestra pagina desde un dispositivo mobil la pagina se adapte a el y le de una buena experiencia al usuario ya que no podemos permitir que el usuario tenga una mala experiencia.
+- 5° Meta este es muy importante para los proyectos que son Responsive y actualmente todos los proyectos que hagas tienen que ser  100% Resposive esta liene tendra que verse asi: 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> esta liene es basicamente para que si una persona abre nuestra pagina desde un dispositivo mobil la pagina se adapte a el y le de una buena experiencia al usuario ya que no podemos permitir que el usuario tenga una mala experiencia.
 
 - Existen otras etiquetas que se usan para  poder agregar el CSS y por ejemplo esa etiqueta se llama *link* esta va  atener dos atributos el 1° dice que esta va a ser una hoja estilos y el 2° es *href* que es la referencia de en donde se encuentra este documento y luego se pone la ruta de donde se encuentra el documento y la forma de poner la ruta es abrir una carepeta o folder, ponerle un nombre descriptivo ejemplo: "CSS" y luego habrir un expediente le ponemos "style.css" y se abre nuestro documento iremos a la linea de codigo y se va a ver asi sin la ruta <link rel="stylesheet" href="aquivalaruta"> para poner la ruta despues del atributo *href* se pone *./* y  va a parecer nuestra carpeta y luego nuestro expediente y esa va a ser la ruta y se ver asi: <link rel="stylesheet" href="./css/style.css"> y de esta froma ya esta nuestra hoja de estilos incorporada en nuestro index esto es importante porque es la forma de anexar los estilos que hacemos en nuestro html por eso esta linea de codigo es muy importante.
 Y con eso el HEAD esta terminado.
+
+
+- *BODY*
+Aqui vamos a poner las etiquetas para empezar a generar contenido de HTML,
+Hay dos tipos de etiquetas: 
+- 1° Etiquetas de contenido:estas son las que van a llevar el texto, imagenes videos o cualquier cosa que sea contenido con el que el usuario pueda interactuar.
+- 2° Etiquetas contenedoras: estas van a llevar más etiquetas adentro que nos van ayudar  a generar la estructura de nuestra pagina.
+
+- Etiquetas contenedoras.
+Hay etiquetas especificas para poder trabajar en la diferentes partes de la pagina por ejemplo. 
+° *header* que la etiqueta es asi: <header></header> esta sera la etiqueta contenedora que tenemos que hacer si queremos trabajar en el *header* si este va a llevar una barrita de navegacion la etiqueta para eso es: <nav></nav> y ya que *header* es una etiqueta contenedora la etiqueta de *nav* va a ir dentro de la de *haeder*.
+° *main content* si queremos trabajar aqui tambien hay una etiqueta especifica para esta area que es: <main></main> y tambien es una etiqueta contenedora esta va a ir abajo y fuera de *header* y *nav* ya que esto le dira al navegador que el contenido principal ira despues de la barra de navegacion y del encabezado, existen secciones (<section></section>) que van a ir denttro de *main* y tambien atriculos (<article></article>) que pueden ir dentro de las secciones podemos tener una seccion con diferentes articulos,
+° *Footer* si quyeremos trabajar aqui la etiquet a para eso es: <footer></footer>
