@@ -118,5 +118,10 @@ Hay dos tipos de etiquetas:
 - Etiquetas contenedoras.
 Hay etiquetas especificas para poder trabajar en la diferentes partes de la pagina por ejemplo. 
 ° *header* que la etiqueta es asi: <header></header> esta sera la etiqueta contenedora que tenemos que hacer si queremos trabajar en el *header* si este va a llevar una barrita de navegacion la etiqueta para eso es: <nav></nav> y ya que *header* es una etiqueta contenedora la etiqueta de *nav* va a ir dentro de la de *haeder*.
-° *main content* si queremos trabajar aqui tambien hay una etiqueta especifica para esta area que es: <main></main> y tambien es una etiqueta contenedora esta va a ir abajo y fuera de *header* y *nav* ya que esto le dira al navegador que el contenido principal ira despues de la barra de navegacion y del encabezado, existen secciones (<section></section>) que van a ir denttro de *main* y tambien atriculos (<article></article>) que pueden ir dentro de las secciones podemos tener una seccion con diferentes articulos,
-° *Footer* si quyeremos trabajar aqui la etiquet a para eso es: <footer></footer>
+° *main content* si queremos trabajar aqui tambien hay una etiqueta especifica para esta area que es: <main></main> y tambien es una etiqueta contenedora esta va a ir abajo y fuera de *header* y *nav* ya que esto le dira al navegador que el contenido principal ira despues de la barra de navegacion y del encabezado, existen secciones (<section></section>) que pueden  ir denttro de *main* y tambien articulos (<article></article>) que pueden ir dentro de las secciones podemos tener una seccion con diferentes articulos, y si en nuestro proyecto queremos trabajar comtenido que tenga listas existen dos tipos de etiquetas:
+
+1° Order list (<ol></ol>) que es un lista que estara enumerada.
+
+2° Unorder list (<ul></ul>) y esta en vez de enumeracion llevara puntitos. 
+
+° *Footer* si queremos trabajar aqui la etiquet a para eso es: <footer></footer>
