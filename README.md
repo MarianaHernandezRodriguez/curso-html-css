@@ -124,4 +124,13 @@ Hay etiquetas especificas para poder trabajar en la diferentes partes de la pagi
 
 2° Unorder list (<ul></ul>) y esta en vez de enumeracion llevara puntitos. 
 
+Cuando queramos añadir la listas la forma de hacerlo es poniendo una etiqueta que es *elementos de la lista* (<li>aqui va el texto</li>) esta ira dento de la etiqueta de lista que queramos. 
+
+- Etiquetas de contenido.
+Una de ellas son las de texto como (<li>para listas</li>) pero tambien hay una para escribir parrafos que es (<p>aqui el texto</p>) tambie  hay una etiquetas (<h1>aqui el  titulo</h1>) que le dicen al navegador que lo que vamos a poner  es un titulo y va a poner eso en letras más vistosas existe desde la etiqeyuta *h1* a la *h6* y entre más grande es el numero el titulo se hace más pequeño.
+Hay otra etiqueta de texto que es *ancla* (<a href="#">aqui el link</a>) el *#* esta ahi para que al presionar el link no se reinicie la pagina si no que inmediatamente nos lleve a otra pagina.
+
+
 ° *Footer* si queremos trabajar aqui la etiquet a para eso es: <footer></footer>
+
+° hay un aetiqueta contenedor que es <div></div> que es como un comodin no es correcto usarla para hacer toda una estructura. 
