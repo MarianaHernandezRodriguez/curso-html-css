@@ -134,3 +134,38 @@ Hay otra etiqueta de texto que es *ancla* (<a href="#">aqui el link</a>) el *#* 
 ° *Footer* si queremos trabajar aqui la etiquet a para eso es: <footer></footer>
 
 ° hay un aetiqueta contenedor que es <div></div> que es como un comodin no es correcto usarla para hacer toda una estructura. 
+
+EJERCICIO
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <h1>Lista del super</h1>
+ </head>
+ <body>
+   <ul>
+     <li>Frutas</li>
+   </ul>
+   <ol>
+     <li>Sandia</li>
+     <li>Kiwi</li>
+     <li>Cereza</li>
+   </ol>
+   <ul>
+     <li>Verduras</li>
+   </ul>
+   <ol>
+     <li>Zanahoria</li>
+     <li>Brocoli</li>
+     <li>Lechuga</li>
+   </ol>
+   <ul>
+     <li>Carne</li>
+   </ul>
+   <ol>
+     <li>Jamon</li>
+     <li>Bistec</li>
+     <li>Nugets</li>
+   </ol>
+ </body>
+</html>
