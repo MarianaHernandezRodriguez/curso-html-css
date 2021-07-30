@@ -147,25 +147,25 @@ EJERCICIO
      <li>Frutas</li>
    </ul>
    <ol>
-     <li>Sandia</li>
-     <li>Kiwi</li>
-     <li>Cereza</li>
+     <li><a href="#">Sandia</a></li>
+     <li><a href="#">Kiwi</a></li>
+     <li><a href="#">Cereza</a></li>
    </ol>
    <ul>
      <li>Verduras</li>
    </ul>
    <ol>
-     <li>Zanahoria</li>
-     <li>Brocoli</li>
-     <li>Lechuga</li>
+     <li><a href="#">Zanahoria</a></li>
+     <li><a href="#">Brocoli</a></li>
+     <li><a href="#">Lechuga</a></li>
    </ol>
    <ul>
      <li>Carne</li>
    </ul>
    <ol>
-     <li>Jamon</li>
-     <li>Bistec</li>
-     <li>Nugets</li>
+     <li><a href="#">Jamon</a></li>
+     <li><a href="#">Bistec</a></li>
+     <li><a href="#">Nugets</a></li>
    </ol>
  </body>
 </html>
